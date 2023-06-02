@@ -39,6 +39,12 @@
         >
           Add 1
         </button>
+        <button
+          class="btn btn-outline btn-primary m-2"
+          @click="state.counter = 0"
+        >
+          Reset
+        </button>
         <p>
           The button has been clicked <kbd>{{ state.counter }} times.</kbd>
         </p>
